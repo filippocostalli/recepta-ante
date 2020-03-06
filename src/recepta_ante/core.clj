@@ -17,7 +17,7 @@
   [& args]
   (let [ dbspec-ante (:recepta-ante-db conf/configuration)
          ^HikariDataSource ds-ante (connection/->pool HikariDataSource dbspec-ante)]
-    (log/info "Application started")
+    ;;(log/info "Application started")
     (log/info {:args (vec args) :argc (count args)} "Arguments received")
     (let
       [ente-id (Integer/parseInt (first args))
