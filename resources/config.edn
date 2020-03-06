@@ -1,0 +1,7 @@
+{;;:input-file-csv "E:/tmp/Recepta/Ante/sdo_sirai/sdo_sirai_20200302.csv"
+ :input-file-csv "E:/tmp/Recepta/Ante/sdo_nsbonaria/sdo_nsbonaria_20191231.csv"
+ :recepta-ante-db {:dbtype "postgres"
+                   :host "localhost"
+                   :dbname "recepta_ante_teramo_test"
+                   :username "postgres"
+                   :password "marno"}}
